@@ -23,9 +23,9 @@ Step 10) Connecting github using SSH. This is specially used to avoid entering u
 
 Step 11) git clone <ssh/html url from github>: A clone command makes a full copy (including all branches and tracking) of remote repo into your local repo.
 
-Step ) Git Fetch: used to fetch changes from the remote repo. This should be usually done before any push command is given. It will only bring the changes in the local .git repository.
+Step ) Git Fetch: used to fetch changes from the remote repo. This should be usually done before any push command is given. 
 
-Step ) Git Merge: used to automatically (or manually) merge the changes fetched from remote repo with your local repo. This should be usually done before any push command is given. Merge will do no conflicting changes. Any conflicting change will have to be manually merged.
+Step ) Git Merge: used to automatically (or manually) merge the changes fetched from remote repo with your local repo. This should be usually done before any push command is given.
 
 Step ) Git pull: This can be done as a shortcut to do the work of fetch and pull. 
 
@@ -34,6 +34,4 @@ README file should contain information like what the project does, how it can he
 
 ##Knowing about CONTRIBUTING.md file
 This file can be used to write some message or set some guidlines for the contributors of this project.
-
-"This text is to test the fetch, merge, and pull command".
 
