@@ -1,0 +1,1 @@
+This file is to test the mechanism of new branch named, sample-branch
