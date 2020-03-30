@@ -38,3 +38,8 @@ This file can be used to write some message or set some guidlines for the contri
 "This text is to test the fetch, merge, and pull command".
 "This text is added to the newly created sample-branch".
 
+##Types of branches you can make-
+1) master branch
+2) development branch
+3) feature branch
+
