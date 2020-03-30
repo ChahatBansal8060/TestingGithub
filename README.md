@@ -23,11 +23,16 @@ Step 10) Connecting github using SSH. This is specially used to avoid entering u
 
 Step 11) git clone <ssh/html url from github>: A clone command makes a full copy (including all branches and tracking) of remote repo into your local repo.
 
-Step ) Git Fetch: used to fetch changes from the remote repo. This should be usually done before any push command is given. It will only bring the changes in the local .git repository.
+Step 12) Git Fetch: used to fetch changes from the remote repo. This should be usually done before any push command is given. It will only bring the changes in the local .git repository.
 
-Step ) Git Merge: used to automatically (or manually) merge the changes fetched from remote repo with your local repo. This should be usually done before any push command is given. Merge will do no conflicting changes. Any conflicting change will have to be manually merged.
+Step 13) Git Merge: used to automatically (or manually) merge the changes fetched from remote repo with your local repo. This should be usually done before any push command is given. Merge will do no conflicting changes. Any conflicting change will have to be manually merged.
 
-Step ) Git pull: This can be done as a shortcut to do the work of fetch and pull. 
+Step 14) Git pull: This can be done as a shortcut to do the work of fetch and pull. 
+
+##Learning About Branches 
+Step 1) Command to create branch from terminal- "git branch <BranchName>"
+Step 2) To start working with a local branch type- "git checkout <BranchName>"
+Step 3) To push that branch to github, we use the command "git push -u <origin> <BranchName>". Notice that -u has occured again.
 
 ##Knowing about README file
 README file should contain information like what the project does, how it can help the project, who owns it, and so on. README file is written in MarkDown i.e. md font. markdown means that it can be converted into HTML easily.	
